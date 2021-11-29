@@ -1,8 +1,13 @@
-import Button from '@restart/ui/esm/Button';
+
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import Footer from '../Shared/Footer';
 import Header from '../Shared/Header';
+import Fade from 'react-reveal/Fade';
+import Bounce from 'react-reveal/Bounce';
+import Typical from 'react-typical'
+
+
 import './home.css'
 
 const Home = () => {
@@ -12,15 +17,25 @@ const Home = () => {
             <div className="home-main top">
                 <Container>
                    <div className="d-flex justify-content-between flex-column flex-lg-row align-items-center ">
-                       <div className="">
+                      <Fade left>
+                      <div className="">
                            <p className="text-white">HI THERE  <img  src="https://www.kemiadeleke.com/media/emoji.svg" alt="" /> i m</p>
                            <h1 className="text-white ">MD Nur Mohammod</h1>
-                           <h5 className="h-t">im a junior react js developer.</h5>
+                           <h5 className="h-t">
+                                <Typical
+        steps={['im a ', 1000, 'im a junior react js developer!', 500]}
+        loop={Infinity}
+        wrapper="p"
+      />
+                           </h5>
                                <a className="hire-btn" href="https://drive.google.com/uc?export=download&id=1CRmLr6_OLEqIA6g4AyypQ5yaxZTGt7Uf">Get Resume</a>
                        </div>
-                       <div className="">
+                      </Fade>
+                     <Fade right>
+                     <div className="">
                            <img className="img-fluid py-5  " src="https://res.cloudinary.com/dejiabiola/image/upload/v1607804394/envato_2.0/kem-hero.png" alt="" />
                        </div>
+                     </Fade>
                    </div>
                  
                 </Container>
@@ -28,7 +43,8 @@ const Home = () => {
             <div className="second-home">
                 <Container>
 <div className="d-flex justify-content-between flex-column flex-lg-row align-items-center ">
-    <div className="col-md-6">
+   <Fade left>
+   <div className="col-md-6">
          <h1 className="text-white fw-bold my-4">LET ME <span className="intro">INTRODUCE</span> MYSELF</h1>
          <h5 className="text-white ">I fell in love with programming and I have at least learnt something, I think… </h5>
          <h5 className="text-white  my-3">I feel comfortable in classics like <span className="intro"> Javascript,react js,node js.</span></h5>
@@ -37,9 +53,12 @@ const Home = () => {
          Whenever possible, I also apply my passion for developing products with <span className="intros">Node.js,react js,react router,html,css,bootstrap,tailwind css,node js,express js,mongoDB,firebase.</span>
          </h5>
     </div>
-    <div className="col-md-">
+   </Fade>
+   <Fade right>
+   <div className="col-md-">
         <img className="py-5" src="https://soumyajit.tech/static/media/avatar.5852f40f.svg" alt="" />
     </div>
+   </Fade>
 </div>
 
 
@@ -49,7 +68,8 @@ const Home = () => {
     <h2 className="text-white text-center">My Services</h2>
 
     <div className="d-flex justify-content-around flex-column flex-lg-row  my-5">
-        <div className="">
+      <Bounce top>
+      <div className="">
            <div className="cards">
            <img  src="https://www.kemiadeleke.com/media/react-logo.svg" alt="" />
            <h3 className="cards-title fw-bold">Product Design</h3>
@@ -57,7 +77,9 @@ const Home = () => {
            </div>
 
         </div>
-        <div className="">
+      </Bounce>
+      <Bounce top>
+      <div className="">
            <div className="cards">
            <img src="https://www.kemiadeleke.com/media/brackets.svg" alt="" />
            <h3 className="cards-title fw-bold">Full Stack Development</h3>
@@ -65,6 +87,7 @@ const Home = () => {
            </div>
 
         </div>
+      </Bounce>
     </div>
 </div>
 <div className="last-home text-center py-5">

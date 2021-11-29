@@ -2,6 +2,7 @@ import React from 'react';
 import { Card, Carousel, Col, Container, Row } from 'react-bootstrap';
 import Footer from '../Shared/Footer';
 import Header from '../Shared/Header';
+import Zoom from 'react-reveal/Zoom';
 import './projects.css'
 
 const Projects = () => {
@@ -13,7 +14,8 @@ const Projects = () => {
            <p className="text-white text-center dd">Here are few projects i have work recently</p>
              <Container>
                    <div className="row g-4">
-                       <div className="col-md-6">
+                    <Zoom top>
+                    <div className="col-md-6">
                            <div className="pro shadow">
                            <Carousel>
   <Carousel.Item>
@@ -56,7 +58,9 @@ Admin can delete and add products from the admin panel dashboard.
 </div>
                            </div>
                        </div>
-                       <div className="col-md-6">
+                    </Zoom>
+               <Zoom top>
+               <div className="col-md-6">
                            <div className="pro shadow">
                            <Carousel>
   <Carousel.Item>
@@ -102,7 +106,9 @@ implemented firebase login system and applied animation.
 </div>
                            </div>
                        </div>
-                       <div className="col-md-6">
+               </Zoom>
+                   <Zoom bottom>
+                   <div className="col-md-6">
                            <div className="pro shadow">
                            <Carousel>
   <Carousel.Item>
@@ -147,7 +153,9 @@ fully responsive.
 </div>
                            </div>
                        </div>
-                       <div className="col-md-6">
+                   </Zoom>
+                 <Zoom bottom>
+                 <div className="col-md-6">
                            <div className="pro shadow">
                            <Carousel>
   <Carousel.Item>
@@ -191,6 +199,7 @@ fully responsive.
 </div>
                            </div>
                        </div>
+                 </Zoom>
                        
                    </div>
              </Container>

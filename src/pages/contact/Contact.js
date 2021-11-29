@@ -4,20 +4,24 @@ import emailjs from 'emailjs-com';
 import swal from 'sweetalert';
 import Header from '../Shared/Header';
 import Footer from '../Shared/Footer';
+import Fade from 'react-reveal/Fade';
 
 
 const Contact = () => {
     // const [swal,setswal] = useState('')
-    const form = useRef();
+  
     const sendEmail = (e) => {
         e.preventDefault();
-    
-        emailjs.sendForm('service_njqpage', 'template_hgfhipt', form.current, 'user_11TTzeKsnh0ZFLEWweaCS')
+       
+    // service_njqpage
+        emailjs.sendForm('service_njqpage', 'template_dzqdvog', e.target, 'user_11TTzeKsnh0ZFLEWweaCS')
           .then((result) => {
               console.log(result.text);
               if(result.text){
-                swal("Good job!", "You clicked the button!", "success");
+                swal("Good job!", "email successfully!", "success");
                 alert('email send successfully')
+                e.target.reset()
+       
 
               }
           }, (error) => {
@@ -35,7 +39,8 @@ const Contact = () => {
         </div>
         <Container>
             <div className="row my-5">
-                <div className="col-md-5">
+             <Fade left>
+             <div className="col-md-5">
                    <div className="d-flex align-items-center  justify-content-around"> <img className=" icons" src="https://www.kemiadeleke.com/media/contact-address.svg" alt="" />
                   <p className="icons-title">Lakshmipur Bangladesh</p>
                    </div>
@@ -47,17 +52,34 @@ const Contact = () => {
                   <p className="icons-title">+(0088)01876399629(bd)</p>
                    </div>
                 </div>
-                <div className="col-md-7">
-                <form ref={form} onSubmit={sendEmail}>
-     
-      <input className="inputs" placeholder="enter your name" type="text" name="user_name" /> <br />
-
-      <input placeholder="enter your email"  className="inputs" type="email" name="user_email" /> <br />
-    
-      <textarea placeholder="enter text" className="inputss" cols="70" rows="10" name="message" /> <br />
-      <input type="submit" className="send" value="Send email" />
-    </form>
-                </div>
+             </Fade>
+             <Fade right>
+             <div className="col-md-7">
+          
+          <form onSubmit={sendEmail}>
+                     <div className="row pt-5 mx-auto">
+                         <div className="col-8 form-group mx-auto">
+                             <input type="text" className="form-control inputs" placeholder="Name" name="name" />
+                         </div>
+                         <div className="col-8 pt-2 form-group mx-auto">
+                             <input type="email" className="form-control inputs" placeholder="Email Address" name="email" />
+                         </div>
+                         <div className="col-8 pt-2 form-group mx-auto">
+                             <input type="text" className="form-control inputs" placeholder="Subject" name="subject" />
+                         </div>
+                         <div className="col-8 pt-2 form-group mx-auto">
+                             <textarea className="form-control inputss"
+                                 cols="30"
+                                 rows="8"
+                                 placeholder="Your Message" name="message" />
+                         </div>
+                         <div className="col-8 pt-3 mx-auto">
+                             <input type="submit" className="send" value="send message" />
+                         </div>
+                     </div>
+                 </form>
+                     </div>
+             </Fade>
             </div>
         </Container>
         </div>
