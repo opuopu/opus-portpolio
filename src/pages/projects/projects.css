@@ -1,0 +1,81 @@
+.projects-main{
+    background-color: rgb(50, 55, 58);
+
+    padding: 60px 0;
+}
+.pro{
+    
+  
+    padding: 15px 15px;
+    border-radius: 10px;
+  
+}
+.desc{
+    font-size: 20px;
+}
+.tech{
+    color: rgb(67, 213, 175);
+}
+.works{
+    color: rgb(67, 213, 175);
+}
+.dd{
+    font-size: 20px;
+}
+.links{
+ margin-top: 40px;
+ display: inline-block;
+ margin-right: 0;
+ background: #0fb;
+padding: 10px 30px;
+color: black;
+text-decoration: none;
+font-size: 20px;
+font-weight: 500;
+border-radius: 40px;
+
+}
+.inputs{
+    background: none;
+    background-color: rgb(55, 60, 62);
+    border: 1px solid #fcfcfc;
+    height: 4.8rem;
+    display: flex;
+    align-items: center;
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
+    margin-bottom: 2.2rem;
+    font-family: SF Pro Display,sans-serif;
+   
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    border-radius: 40px;
+ 
+
+}
+.inputss{
+    background-color: rgb(55, 60, 62);
+    border: 1px solid #fcfcfc;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+    color: white;
+
+}
+.send{
+    border: none;
+    padding: 20px 60px;
+    background-color: #0fb;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.resume{
+  color: white !important;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 4px;
+
+
+    
+}
