@@ -10,8 +10,8 @@ const Footer = () => {
                    <h5 className="text-white">Designed and Developed by Soumyajit Behera</h5>
                    <h5 className="text-white">Copyright © 2021 </h5>
                    <h5>
-                 <a href="https://github.com/opuopu">  <i className="fab text-white fa-github px-3"></i></a>
-                   <a href="https://www.linkedin.com/in/md-nur-mohammod-2b8a55226/"><i className="fab text-white fa-linkedin px-3"></i></a>
+                 <a target="_blank" href="https://github.com/opuopu">  <i className="fab text-white fa-github px-3"></i></a>
+                   <a target="_blank" href="https://www.linkedin.com/in/md-nur-mohammod-2b8a55226/"><i className="fab text-white fa-linkedin px-3"></i></a>
                   
                    </h5>
                </div>

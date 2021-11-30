@@ -8,6 +8,7 @@
 font-weight: 600;
 font-size: 20px;
 
+
     
    
 }
@@ -54,4 +55,30 @@ font-size: 20px;
     padding: 6px 8px;
     font-weight: 600;
     border-radius: 20px;
+}
+.about-main{
+    background-color: rgb(65, 71, 75);
+margin-top: 90px;
+    
+}
+.iam{
+    color: #0fb;
+}
+.pp{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.middle{
+    color: #0fb;
+}
+.me{
+    color: #0fb;
+}
+.navs:hover{
+    color: #0fb;
+}
+.blog{
+    margin: 270px 0;
 }

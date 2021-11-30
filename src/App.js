@@ -14,6 +14,8 @@ Route
 
 import Contact from './pages/contact/Contact';
 import Projects from './pages/projects/Projects'
+import About from './pages/About/About';
+import Blog from './pages/Blog/Blog';
 
 
 
@@ -27,6 +29,8 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/Contact" element={<Contact />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/blog" element={<Blog />} />
       </Routes>
     </BrowserRouter>
   );

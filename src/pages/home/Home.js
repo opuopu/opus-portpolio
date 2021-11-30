@@ -34,6 +34,7 @@ const Home = () => {
                      <Fade right>
                      <div className="">
                            <img className="img-fluid py-5  " src="https://res.cloudinary.com/dejiabiola/image/upload/v1607804394/envato_2.0/kem-hero.png" alt="" />
+                           
                        </div>
                      </Fade>
                    </div>
@@ -94,8 +95,8 @@ const Home = () => {
     <h1 className="text-white">FIND ME ON</h1>
     <p className="cards-text">feel free to <span className="intro">connect</span> with me</p>
     <div className="">
-  <a href="https://github.com/opuopu">  <i className="fab fabs fa-github px-3"></i></a>
-  <a href="https://www.linkedin.com/in/md-nur-mohammod-2b8a55226/"><i className="fab fabs fa-linkedin px-3"></i></a>
+  <a href="https://github.com/opuopu" target="_blank">  <i className="fab fabs fa-github px-3"></i></a>
+  <a href="https://www.linkedin.com/in/md-nur-mohammod-2b8a55226/" target="_blank"><i className="fab fabs fa-linkedin px-3"></i></a>
     </div>
 
 </div>
