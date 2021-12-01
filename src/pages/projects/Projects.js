@@ -47,10 +47,10 @@ Customers create their account using email and password and they can give a revi
 Admin can delete and add products from the admin panel dashboard.
 
 </p>
-<div className="d-flex justify-content-around">
+<div className="d-flex justify-content-around flex-column flex-lg-row text-center">
 <p className="techs">react js</p> <p className="techs">node  js</p> <p className="techs">react router</p> <p className="techs">Bootstrap</p> <p className="techs">firebase</p> <p className="techs">mongoDB</p> <p className="techs">react reveal</p>
 </div>
-<div className="d-flex justify-content-around">
+<div className="d-flex justify-content-around flex-column flex-lg-row text-center">
 <a className="links" href="https://apurbo-2dc23.web.app/"> <i class="fab fa-telegram-plane"></i> Live site</a>
 <a className="links" href="https://github.com/opuopu/motorcycle-shop"> <i class="fab fa-github"></i> Github Client</a>
 <a className="links" href="https://github.com/opuopu/motorcycle-shop-backend"> <i class="fab fa-github"></i> Github Client</a>
@@ -92,14 +92,14 @@ A user can add a service from the add a service section.
 implemented firebase login system and applied animation.
 
 </p>
-<div className="d-flex justify-content-around">
+<div className="d-flex justify-content-around flex-column flex-lg-row text-center">
 <p className="techs">react js</p> <p className="techs">node  js</p> <p className="techs">react router</p> <p className="techs">Bootstrap</p> <p className="techs">firebase</p> <p className="techs">mongoDB</p> <p className="techs">react reveal</p>
 </div>
 
 
 
 
-<div className="d-flex justify-content-around">
+<div className="d-flex justify-content-around flex-column flex-lg-row text-center">
 <a className="links" href="https://fir-authentication-form.web.app/"> <i class="fab fa-telegram-plane"></i> Live site</a>
 <a className="links" href="https://github.com/opuopu/turisom-client"> <i class="fab fa-github"></i> Github Client</a>
 <a className="links" href="https://github.com/opuopu/turisom-server-side"> <i class="fab fa-github"></i> Github server </a>
@@ -133,7 +133,7 @@ implemented firebase login system and applied animation.
     />
   </Carousel.Item>
   </Carousel>
-  <h1 className="pro-title text-white text-center fw-bold my-3">Mediacare Healthcare</h1>
+  <h1 className="pro-title text-white text-center fw-bold my-3 ">Mediacare Healthcare</h1>
   <p className="text-white desc">This is a healthcare-related website. Users can appointment from the
                         appointment section.        
 Users can see service details.
@@ -142,11 +142,11 @@ fully responsive.
 
 
 </p>
-<div className="d-flex justify-content-around">
+<div className="d-flex justify-content-around flex-column flex-lg-row text-center">
 <p className="techs">react js</p>  <p className="techs">react router</p> <p className="techs">Bootstrap</p> <p className="techs">firebase</p>  
 </div>
 
-<div className="d-flex justify-content-around">
+<div className="d-flex justify-content-around flex-column flex-lg-row text-center">
 <a className="links" href="https://bd-cash-c8e62.web.app/home"> <i class="fab fa-telegram-plane"></i> Live site</a>
 <a className="links" href="https://github.com/opuopu/mediacare-healthcare-website"> <i class="fab fa-github"></i> Github Client</a>
 
@@ -180,7 +180,7 @@ fully responsive.
     />
   </Carousel.Item>
   </Carousel>
-  <h1 className="pro-title text-white text-center fw-bold my-3">Mediacare Healthcare</h1>
+  <h1 className="pro-title text-white text-center fw-bold my-3 ">Mediacare Healthcare</h1>
   <p className="text-white desc">This is a simple it related website.. Users can see services from the
                         services  section.        
 
@@ -188,11 +188,11 @@ fully responsive.
 
 
 </p>
-<div className="d-flex justify-content-around">
+<div className="d-flex justify-content-around flex-column flex-lg-row text-center">
 <p className="techs">react js</p> <p className="techs">css</p>  <p className="techs">Bootstrap</p> <p className="techs">rest api</p> 
 </div>
 
-<div className="d-flex justify-content-around">
+<div className="d-flex justify-content-around flex-column flex-lg-row text-center">
 <a className="links" href="https://cranky-hamilton-12ced0.netlify.app/home"><i class="fab fa-telegram-plane"></i> Live site</a>
 <a className="links" href="https://github.com/opuopu/it-review-website"> <i class="fab fa-github"></i> Github Client</a>
 

@@ -47,7 +47,7 @@ font-size: 20px;
     
 }
 .top{
-    margin-top: 89px;
+padding-top: 90px;
 }
 .techs{
     background-color: rgb(65, 71, 75);
@@ -58,7 +58,8 @@ font-size: 20px;
 }
 .about-main{
     background-color: rgb(65, 71, 75);
-margin-top: 90px;
+    padding-top: 90px;
+
     
 }
 .iam{
